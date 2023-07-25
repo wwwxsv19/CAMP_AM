@@ -1,0 +1,4 @@
+score = {10:'A', 9:'A', 8:'B', 7:'B', 6:'C', 5:'C', 4:'C'}
+val = int(input())
+
+print(score.get(val//10, "D"))
